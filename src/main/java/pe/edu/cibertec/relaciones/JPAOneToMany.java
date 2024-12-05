@@ -15,6 +15,7 @@ public class JPAOneToMany {
 
         //crear categoria
         Categoria categoria = new Categoria("C6", "De Terror", null);
+        //
 
         //registrar categoria
         em.getTransaction().begin();
